@@ -6,6 +6,7 @@ body {
   color: #333;
   background-color: azure;
   margin: 0;
+  padding: 0;
   text-align: center;
 }
 
@@ -24,13 +25,14 @@ h1 {
   list-style: none;
 }
 #gallery li {
-  padding: 0.4em; 
+  padding: 0.4em;
 }
 li img {
+  border: 1px solid gold;
   border-radius: 3%;
 }
 li img:hover {
-  box-shadow: 2px 2px 3px #ce0909;
+  box-shadow: 2px 2px 3px #e29696;
 }
 #placeholder {
   margin: auto;
@@ -41,12 +43,13 @@ li img:hover {
 }
 #description {
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: #170505;
 }
 footer {
   color: #170505;
-  padding: 0.4em;
+  padding: 1em;
   margin: 0%;
-  font-size: smaller;
+  font-size: 0.8em;
+  background-color: white;
 }
