@@ -1,0 +1,77 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Helvetica', 'Arial', serif;
+  font-size: 100%;
+  color: #222;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+main {
+  min-height: 100vh;
+}
+
+header {
+  padding: 0%;
+  margin: 0%;
+  background-color: rgb(125, 209, 209);
+}
+header h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 200%;
+  margin: 0%;
+  padding: 0.5rem 0;
+  background-color: transparent;
+  color: #ce0909;
+}
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0;
+  width: 97%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  list-style: none;
+}
+.gallery li {
+  padding: 0.4em;
+  cursor: pointer;
+}
+li img {
+  border: 1px solid gold;
+  border-radius: 3%;
+  transition: all 0.4s linear;
+}
+li img:hover {
+  box-shadow: 1px 1px 2px #e29696;
+}
+.placeholder {
+  margin: 1rem auto;
+  width: fit-content;
+}
+
+.placeholder img {
+  border: 5px solid #ce0909;
+  border-radius: 3%;
+  max-width: 100%;
+}
+.description {
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 130%;
+  color: #170505;
+}
+
+footer {
+  color: #170505;
+  padding: 0.2rem 0;
+  margin: 0%;
+  background-color: rgb(125, 209, 209);
+}
